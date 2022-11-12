@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Aboreto&family=Dancing+Script&family=DynaPuff&family=Kaushan+Script&family=Lobster&family=Orbitron&family=Silkscreen&family=Tourney:ital,wght@1,200&family=VT323&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Aboreto&family=Dancing+Script&family=DynaPuff&family=Kaushan+Script&family=Lobster&family=Orbitron&family=Silkscreen&family=Tourney:ital,wght@1,200&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+</head>
+<body >
+    <div class="navdiv">
+    <nav class="navbar">
+        <span class="nav-comp">
+            <a  href="#aboutme">About me</a>
+        </span>
+        <span class="nav-comp">
+
+            <a  href="#techskill">Technical Skill</a>
+        </span>
+        <span class="nav-comp">
+
+            <a  href="#projects">Projects</a>
+        </span>
+        <span class="nav-comp">
+
+            <a href="#achivement">Achivement</a>
+        </span>
+
+    </nav></div>
+
+    <div class="row">
+    <div class="col-12 ">
+        <div class="face"></div>
+        
+    </div>
+    <div class="text col-12 component ">
+        <p class="heading">HELLO</p>
+        <p class="heading">HARSH THIS SIDE</p>
+        <hr id="aboutme">
+    </div>
+    <div class="text col-12 component" >
+        <p class="heading" >ABOUT ME!</p>
+        <p>A young enthusiastic sophomore  
+        and a Curious Computerphile. 
+        </p>
+        
+        <hr id="techskill">
+    </div>
+    <div class="text col-12 component " >
+        <p class="heading">TECHNICAL SKILL</p>
+        <ul>
+            
+            <li class="tech">
+                C/C++
+                <img src="ISO_C++_Logo.svg.png" class="logo">
+            </li>
+            <li class="tech">Python</li>
+            <li class="tech">Java Script</li>
+            <li class="tech">HTML/HTML5</li>
+            <li class="tech">CSS/CSS3</li>
+            <li class="tech">Bootstrap</li>
+        </ul>
+        <div id="projects"></div>
+        <hr>
+    </div>
+   
+
+    <div class="text col-12" >
+    <p class="heading">PROJECTS</p>
+    <div class="row">
+        <div class="col-12 ">
+            <div class="ok" onmouseover="fun()" onmouseleave="func()">
+            <div id="cardup" class="card-op1"><p>Ping Pong </p>
+            <p>
+                a classic ping pong game where you avoid the ball to touch the ground</p></div>       
+        </div>
+    </div>
+        <div class="col-12 project">
+            <div  class="ok" onmouseover="fun1()" onmouseleave="func1()">
+            <div id="cardup1" class="card-op"><p>SNAKE GAME </p>
+            <p>
+                
+a classic snake game
+where you eat more you grow more  </p></div>       
+        </div>
+    </div>
+    </div>
+        <div class="col-12 project">
+            <div class="ok">
+            <p class="load heading">Loading</p>     
+        </div>
+    </div id="achivement">
+    <hr >
+    </div>
+    <div class="rand">
+    </div>
+    <div class="text col-12">
+    <p class="heading">ACHIVEMENT</p>
+    <div class="row">
+        <div class="col-12 project">
+            <div class="ok">
+            <div class="card-op1"><p>HACKTOBERFEST </p>
+            <p>
+                lorem ipsum</p></div>       
+        </div>
+    </div>
+        <div class="col-12 project">
+            <div class="ok">
+            <p id="into" class="load heading" >Loading</p>     
+        </div>
+     
+        <script>
+            const ok =["top"];
+            setInterval(() => {
+                // document.querySelector(".rand").style."2px";
+                // console.log(ok);
+                
+            }, 1000);
+            
+
+            
+            var loading = document.querySelectorAll(".load")
+            console.log(loading.length)
+            function lod(){
+                for( var i =0 ; i<loading.length;i++){
+                    if(loading[i].textContent.length==11){
+                        loading[i].textContent="Loading";
+                }
+                loading[i].textContent+="."
+            var ok = loading[i].textContent;
+                } 
+            }
+            setInterval(lod,1500);
+        </script>
+    </div>
+
+    </div>
+    
+
+    </div>
+
+</body>
+</html>

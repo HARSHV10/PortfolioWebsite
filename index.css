@@ -1,0 +1,176 @@
+.face{
+    margin-top: 9rem;
+width: 146px;
+height: 168.05px;
+border-radius: 100%;
+left: 45%;
+background: #020000;
+margin-left: 44% ;
+margin-bottom: 32px;
+}
+.navdiv{
+    position: fixed;
+    width: 100%;
+}
+.navbar{
+    backdrop-filter: sepia(90%);
+    color: #e2e2e2;
+    height: 60px;
+}
+.nav-comp{
+    color: blue;
+    padding-left: 100px;
+    text-decoration: none;
+    padding-right: 20px;
+    padding-left: 20px;
+    text-decoration: none;
+    font-size: 40px;
+    font-family:'VT323' ;
+}
+
+.nav-comp:hover{
+    background-color: #010000;
+    background: transparent;
+    color: #010000;
+    width: 15rem;
+    height: 20px;
+    border-radius: 50px;
+    /* background: transparent; */
+    height: 150px;
+}
+
+.text{
+
+
+text-align: center;
+
+font-family: 'VT323';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 32px;
+text-align: center;
+margin-bottom:100px ;
+margin-top:100px ;
+
+color: #010000;
+}
+li{
+    text-align: left;
+    width: 20%;
+    margin-left: 34.5%;
+}
+hr{
+    border-top: dashed dotted red;
+}
+.ok{
+    background-color: #E6E2FF;
+    border-radius: 20px;
+    height: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.project{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.card{
+    
+    margin-left: 10px;
+    width: 30%;
+}
+.card-op{
+    height: 190px;
+    background-color: white;
+    border: solid;
+    border-color: black;
+    margin-left: 69%;
+    border-radius: 10px;
+    width: 30%;
+    
+}
+
+/* .card-op:hover{
+    position: relative;
+    border: solid;
+    background-color: #010000; 
+    border-color: black;
+    margin-left: 10px;
+    transition-duration: 0s;
+    margin-right: 50%;
+    
+} */
+/* .open{
+    position: relative;
+    bottom:50px ;
+} */
+
+.card-op1{
+    height: 190px;
+    background-color: white;
+    border: solid;
+    border-color: black;
+    margin-left: 10px;
+    border-radius: 10px;
+    width:30%;
+    /* overflow-x: auto; */
+}
+/* .card-op1:hover{
+    position: relative;
+    background-color: white;
+    border: solid;
+    border-color: black;
+    margin-left: 70%;
+
+    
+} */
+
+
+.anim{
+    position: relative;
+    transition-property: all;
+    transition-duration: 1s;
+    bottom: 30px;
+}
+.anim1{
+    position: relative;
+    transition-property: all;
+    transition-duration: 1s;
+    bottom: 30px;
+    /* transition-duration: 4s; */
+
+
+}
+
+.heading{
+    font-size: 72px;
+    padding: 10px;
+}
+.load{
+    padding: 6%;
+}
+.logo{
+    position: relative;
+    left: 10rem;
+    height:100px;
+    width: 100px;
+    transform: rotate(-10deg);
+}
+.tech{
+    margin-bottom: 70px;
+    font-size: 4rem;
+
+}
+
+@media (max-width:650px){
+
+    body{
+        padding-top: 50px;
+    }
+    .card-op,.card-op1{
+        margin: 0px;
+        padding: 3px;
+        width: auto;
+    }
+}
